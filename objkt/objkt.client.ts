@@ -86,6 +86,5 @@ async function getLastAudios(offset: number, limit: number): Promise<Audio[]> {
  */
 export const ObjktClient = {
     MAX_RESPONSE: OBJKT_LIMITS.RESPONSE_LIMIT,
-    getLastAudios: (offset: number, limit: number) =>
-        getLastAudios(offset, limit),
+    getLastAudios
 };
