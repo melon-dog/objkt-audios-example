@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "graphql-query-compress": "^1.2.4",
+    "rate-keeper": "^1.2.4"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "lockfileVersion": 1,
+  "configVersion": 1,
+  "workspaces": {
+    "": {
+      "dependencies": {
+        "graphql-query-compress": "^1.2.4",
+        "rate-keeper": "^1.2.4",
+      },
+    },
+  },
+  "packages": {
+    "graphql-query-compress": ["graphql-query-compress@1.2.4", "", { "dependencies": { "tokenizr": "1.5.7" } }, "sha512-W5SMy8/2RAsC9uMOV9VTwnUkp+8N3BZz6qef6jRCIxOVrVxRBiX2btvpaKrEnPU4nchnc1bCfmMDkEtCRzJUiw=="],
+
+    "rate-keeper": ["rate-keeper@1.2.4", "", {}, "sha512-K4LGjdlNoCIplTBO3tfavyccjt5RGv6HXZLItqzKqRusbaUOaUu+wsUjr8opyKOLmtUKMITbsIZ8T0HzlY9Lww=="],
+
+    "tokenizr": ["tokenizr@1.5.7", "", {}, "sha512-w6qS6F5PNtY30DxoRD4a7nC7zOlPM2SlpQ4zLhOmqBaB1VCZrlV82bLpc/lKNOdNmrwIwcsJLDcjEJ8f7UG6Mg=="],
+  }
+}
