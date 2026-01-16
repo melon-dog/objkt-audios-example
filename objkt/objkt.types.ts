@@ -1,7 +1,3 @@
-/**
- * Objkt API type definitions.
- */
-
 export interface Query {
     operationName: string;
     query: string;
