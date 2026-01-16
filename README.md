@@ -1,5 +1,5 @@
 
-# Objkt Audios API Client Example
+# Objkt API Audios Client Example
 This project is an example of how to consume the objkt API to fetch recent audios using TypeScript and GraphQL.
 
 ## Installation
