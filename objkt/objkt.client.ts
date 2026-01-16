@@ -48,7 +48,6 @@ async function objktQuery<T>(query: Query): Promise<{ data: T | null; ok: boolea
 const safeObjktQuery = RateKeeper(objktQuery, OBJKT_LIMITS.RESPONSE_WAIT, { id: OBJKT_LIMITS.RATE_LIMIT_ID });
 
 async function getLastAudios(offset: number, limit: number): Promise<Audio[]> {
-
     if (limit > OBJKT_LIMITS.RESPONSE_LIMIT) {
         logWarning(`Requested limit ${limit} exceeds maximum of ${OBJKT_LIMITS.RESPONSE_LIMIT}, capping to maximum.`);
         limit = OBJKT_LIMITS.RESPONSE_LIMIT;
